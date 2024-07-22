@@ -1,0 +1,167 @@
+"'Resumen Actividades Ejecutadas' As screen":
+
+    recPieResumenActividadesEjecutadas As rectangle:
+        BorderColor: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(153, 153, 153, 1)
+        Height: =2
+        Width: =640
+        Y: =1061
+        ZIndex: =1
+
+    lblPieResumenActividadesEjecutadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =70
+        Italic: =true
+        Size: =21
+        Text: =Year(Today()) & " - Servicios a la operación (CMSA)"
+        Width: =560
+        X: =40
+        Y: =1066
+        ZIndex: =2
+
+    rectEncabezadoResumenActividadesEjecutadas As rectangle:
+        BorderColor: =RGBA(252, 194, 0, 1)
+        Fill: =RGBA(255, 217, 0, 1)
+        Height: =135
+        Width: =640
+        ZIndex: =3
+
+    lblTituloResumenActividadesEjecutadas As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =100
+        Size: =20
+        Text: ="RESUMEN DE ACTIVIDADES EJECUTADAS"
+        Width: =600
+        X: =20
+        Y: =17
+        ZIndex: =4
+
+    lblAtrasResumenActividadesEjecutadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: |
+            =Back()
+        Size: =16
+        Text: ="Atrás"
+        Width: =120
+        X: =384
+        Y: =1017
+        ZIndex: =5
+
+    IcoAtrasResumenActividadesEjecutadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =75
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Back()
+        Width: =75
+        X: =406
+        Y: =942
+        ZIndex: =6
+
+    lblGenerarPdfResumenActividadesEjecutadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: |-
+            =Set(archivoPdfEjec, PDF('Contenedor Resumen Actividades Ejecutadas', {ExpandContainers: true})); Navigate('Pdf Actividades Ejecutadas', ScreenTransition.Cover)
+        Size: =16
+        Text: ="Generar PDF"
+        Width: =140
+        X: =135
+        Y: =1017
+        ZIndex: =7
+
+    IcoGenerarPdfResumenActividadesEjecutadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =75
+        Icon: =Icon.DocumentPDF
+        OnSelect: |-
+            =Set(archivoPdfEjec, PDF('Contenedor Resumen Actividades Ejecutadas', {ExpandContainers: true})); Navigate('Pdf Actividades Ejecutadas', ScreenTransition.Cover)
+        Width: =75
+        X: =167
+        Y: =942
+        ZIndex: =8
+
+    "'Contenedor Resumen Actividades Ejecutadas' As groupContainer.verticalAutoLayoutContainer":
+        Height: =785
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        LayoutWrap: =true
+        Width: =640
+        Y: =135
+        ZIndex: =9
+
+        HtmlResumenActividadesEjecutadas As htmlViewer:
+            FillPortions: =1
+            Font: =Font.Lato
+            Height: =980
+            HtmlText: |-
+                ="<html>
+                    <head>
+                
+                    </head>
+                    <body>
+                        <table style='font-size: 16px' align='center'>
+                            <tr class='fila'>
+                                <td>
+                                    <b>ACTIVIDAD SEMANAL DE ANDAMIOS / BARRERAS DURAS - CMSA</b>
+                                </td>
+                            </tr>
+                        </table>
+                        <hr style='border-color: #FFE333;'>
+                        <p style='font-size: 12px'><b>Semana:</b> "& ISOWeekNum(galListaActividadesEjecutadas.Selected.FechaActividad) &"</p>
+                        <p style='font-size: 12px'><b>Desde:</b> "& Text(dtBuscarFechaDesdeActividadesEjecutadas.SelectedDate, "dd/mm/yyyy") &"</p>
+                        <p style='font-size: 12px'><b>Hasta:</b> "& Text(dtBuscarFechaHastaActividadesEjecutadas.SelectedDate, "dd/mm/yyyy") &"</p>
+                        <br>
+                
+                        <div style='text-align:center;'>
+                            <table id='registro' style='border: 1px solid black; border-collapse: collapse; width:100%'>
+                                <thead style='border: 1px solid black; border-collapse: collapse; font-size: 10px'>
+                                    <tr style='border: 1px solid black; border-collapse: collapse; height:23px;'>
+                                    <th class='cabecera'style='border: 1px solid black; border-collapse: collapse; '>Fecha</th>
+                                    <th class='cabecera'style='border: 1px solid black; border-collapse: collapse; '>Hora</th>
+                                    <th class='cabecera'style='border: 1px solid black; border-collapse: collapse; ;'>Actividad</th>
+                                    <th class='cabecera'style='border: 1px solid black; border-collapse: collapse; '>Administrador</th>
+                                    <th class='cabecera'style='border: 1px solid black; border-collapse: collapse; '>Ubicación</th>
+                                    <th class='cabecera'style='border: 1px solid black; border-collapse: collapse;'>Programación</th>
+                                    <th class='cabecera'style='border: 1px solid black; border-collapse: collapse;'>Tipo de andamio</th>
+                                    <th class='cabecera'style='border: 1px solid black; border-collapse: collapse;'>Dimensiones</th>
+                                    <th class='cabecera'style='border: 1px solid black; border-collapse: collapse;'>Adicional</th>
+                                    </tr>
+                                </thead>
+                                <tbody style='border: 1px solid black; border-collapse: collapse; font-size: 10px'>
+                                    "&
+                                    Concat(galListaActividadesEjecutadas.AllItems, "
+                                    <tr style='border: 1px solid black; border-collapse: collapse; height:23px;'>
+                                        <td style='border: 1px solid black; border-collapse: collapse; width:60px'align='center'>"& Text(FechaActividad, "dd/mm/yyyy") &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse; width:105px' align='center'>"& Concatenate(HoraInicio," - ", HoraFin)&"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse; width:60px' align='center'>"& Actividad.Value &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse;' align='center'>"& Administrador &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse;' align='center'>"& Lugar &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse;' align='center'>"& Programacion.Value &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse;'align='center'>"& Tipo.Value &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse;'align='center'>"& Dimensiones &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse;'align='center'>"& Adicional &"</td>
+                                    </tr>")
+                                    &"
+                                </tbody>   
+                            </table>
+                        </div>
+                    </body>
+                </html>"
+            LayoutMinHeight: =70
+            LayoutMinWidth: =560
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =10
+            Size: =12
+            Width: =610
+            ZIndex: =1
+

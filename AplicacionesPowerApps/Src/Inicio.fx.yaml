@@ -1,0 +1,123 @@
+Inicio As screen:
+
+    recPieInicio As rectangle:
+        BorderColor: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(153, 153, 153, 1)
+        Height: =2
+        Width: =640
+        Y: =975
+        ZIndex: =1
+
+    lblPieInicio As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =70
+        Italic: =true
+        Size: =21
+        Text: =Year(Today()) & " - Servicios a la operación (CMSA)"
+        Width: =560
+        X: =40
+        Y: =1019
+        ZIndex: =2
+
+    rectEncabezadoInicio As rectangle:
+        BorderColor: =RGBA(252, 194, 0, 1)
+        Fill: =RGBA(255, 217, 0, 1)
+        Height: =135
+        Width: =640
+        ZIndex: =3
+
+    lblTituloInicio As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =100
+        Size: =20
+        Text: ="PROGRAMACIÓN Y REGISTRO DE ACTIVIDADES CON ANDAMIOS - CMSA"
+        Width: =600
+        X: =20
+        Y: =17
+        ZIndex: =4
+
+    lblProgramadas As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =70
+        OnSelect: =Navigate('Listado Solicitudes Programadas', ScreenTransition.Cover)
+        Size: =18
+        Text: ="REGISTRO DE PROGRAMACIÓN"
+        Width: =368
+        X: =136
+        Y: =469
+        ZIndex: =5
+
+    lblEjecutadas As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =70
+        OnSelect: =Navigate('Listado Actividades Ejecutadas', ScreenTransition.Cover)
+        Size: =18
+        Text: ="REGISTRO DE ACTIVIDADES"
+        Width: =341
+        X: =150
+        Y: =818
+        ZIndex: =6
+
+    imgEjecutadas As image:
+        Height: =155
+        Image: =logoEjecucion
+        OnSelect: =Navigate('Listado Actividades Ejecutadas', ScreenTransition.Cover)
+        Width: =165
+        X: =238
+        Y: =663
+        ZIndex: =7
+
+    imgProgramadas As image:
+        Height: =155
+        Image: =logoProgramacion
+        OnSelect: =Navigate('Listado Solicitudes Programadas', ScreenTransition.Cover)
+        Width: =150
+        X: =245
+        Y: =314
+        ZIndex: =8
+
+    "galLoginUsuario As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+        '#CopilotOverlayLabel': ="Filtrada"
+        Height: =99
+        Items: =LookUp(BD_Login_Andamios, Usuario = txtUsuarioLogin.Text)
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =42
+        Width: =388
+        X: =158
+        Y: =156
+        ZIndex: =9
+
+        Title3 As label:
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Normal
+            Height: =36
+            Italic: =true
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Nombre
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =3
+            ZIndex: =1
+
+    Label2 As label:
+        Font: =Font.Lato
+        Height: =46
+        Italic: =true
+        Size: =20
+        Text: ="Bienvenido(a),"
+        Width: =170
+        X: =20
+        Y: =152
+        ZIndex: =10
+

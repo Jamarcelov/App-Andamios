@@ -1,0 +1,693 @@
+"'Detalle Solicitudes Programadas' As screen":
+
+    recPieDetalleSolicitudesProgramadas As rectangle:
+        BorderColor: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(153, 153, 153, 1)
+        Height: =2
+        Width: =640
+        Y: =1044
+        ZIndex: =1
+
+    lblPieDetalleSolicitudesProgramadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =70
+        Italic: =true
+        Size: =21
+        Text: =Year(Today()) & " - Servicios a la operación (CMSA)"
+        Width: =560
+        X: =40
+        Y: =1057
+        ZIndex: =2
+
+    rectEncabezadoDetalleSolicitudesProramadas As rectangle:
+        BorderColor: =RGBA(252, 194, 0, 1)
+        Fill: =RGBA(255, 217, 0, 1)
+        Height: =135
+        Width: =640
+        ZIndex: =3
+
+    lblTituloDetalleSolicitudesProgramadas As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =100
+        Size: =20
+        Text: ="DETALLE DE SOLICITUD PROGRAMADA"
+        Width: =600
+        X: =20
+        Y: =17
+        ZIndex: =4
+
+    lblAtrasDetalleSolicitudesProgramadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: =Back()
+        Size: =16
+        Text: ="Atrás"
+        Width: =135
+        X: =413
+        Y: =1000
+        ZIndex: =5
+
+    icoAtrasDetalleSolicitudesProgramadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =75
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Back()
+        Width: =75
+        X: =443
+        Y: =925
+        ZIndex: =6
+
+    lblEditarDetalleSolicitudesProgramadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: =
+        Size: =16
+        Text: ="Editar"
+        Width: =109
+        X: =262
+        Y: =1000
+        ZIndex: =7
+
+    icoEditarDetalleSolicitudesProgramadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =72
+        Icon: =Icon.Edit
+        OnSelect: =EditForm(frmRegistroSolicitudesProgramadas); Navigate('Edición Solicitudes Programadas', ScreenTransition.Cover)
+        Width: =72
+        X: =280
+        Y: =928
+        ZIndex: =8
+
+    lblEliminarDetalleSolicitudesProgramadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: =Set(mensajeEliminarProgramada, true)
+        Size: =16
+        Text: ="Eliminar"
+        Width: =109
+        X: =91
+        Y: =1000
+        ZIndex: =9
+
+    icoEliminarDetalleSolicitudesProgramadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =75
+        Icon: =Icon.Trash
+        OnSelect: =Set(mensajeEliminarProgramada, true)
+        Width: =75
+        X: =108
+        Y: =925
+        ZIndex: =10
+
+    frmDetalleSolicitudesProgramadas As formViewer:
+        DataSource: =BD_Programadas_Andamios
+        Height: =718
+        Item: =galListaSolicitudesProgramadas.Selected
+        Width: =640
+        Y: =149
+        ZIndex: =11
+
+        NoSemana2_DataCard2 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="NoSemana2"
+            Default: =ThisItem.NoSemana2
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BD_Programadas_Andamios],DataSourceInfo.DisplayName,NoSemana2)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            DataCardKey13 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Número de semana:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue13 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =19
+                Text: =ISOWeekNum(ThisItem.FechaActividad)
+                Width: =Parent.Width - 60
+                X: =40
+                Y: =DataCardKey13.Y + DataCardKey13.Height + 5
+                ZIndex: =2
+
+        FechaActividad_DataCard5 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_4"
+            Default: =ThisItem.FechaActividad
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BD_Programadas_Andamios],DataSourceInfo.DisplayName,FechaActividad)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey14 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Fecha de la actividad:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue14 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =19
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =40
+                Y: =DataCardKey14.Y + DataCardKey14.Height + 5
+                ZIndex: =2
+
+        Administrador_DataCard5 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_5"
+            Default: =ThisItem.Administrador
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BD_Programadas_Andamios],DataSourceInfo.DisplayName,Administrador)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =2
+            ZIndex: =1
+
+            DataCardKey15 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Administrador:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue15 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =19
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =40
+                Y: =DataCardKey15.Y + DataCardKey15.Height + 5
+                ZIndex: =2
+
+        Contratista_DataCard5 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_6"
+            Default: =ThisItem.Contratista
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BD_Programadas_Andamios],DataSourceInfo.DisplayName,Contratista)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =3
+            ZIndex: =1
+
+            DataCardKey17 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Contratista:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue17 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =19
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =40
+                Y: =DataCardKey17.Y + DataCardKey17.Height + 5
+                ZIndex: =2
+
+        Lugar_DataCard5 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_7"
+            Default: =ThisItem.Lugar
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BD_Programadas_Andamios],DataSourceInfo.DisplayName,Lugar)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =4
+            ZIndex: =1
+
+            DataCardKey18 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Lugar:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue18 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =19
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =40
+                Y: =DataCardKey18.Y + DataCardKey18.Height + 5
+                ZIndex: =2
+
+        Actividad_DataCard1 As typedDataCard.comboBoxViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_8"
+            Default: =ThisItem.Actividad
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BD_Programadas_Andamios],DataSourceInfo.DisplayName,Actividad)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue19.Selected
+            Width: =640
+            X: =0
+            Y: =5
+            ZIndex: =1
+
+            DataCardKey19 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Actividad:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue19 As combobox:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                DefaultSelectedItems: =Parent.Default
+                DisplayFields: =["Value"]
+                DisplayMode: =Parent.DisplayMode
+                Height: =35
+                Items: =Choices([@BD_Programadas_Andamios].Actividad)
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SearchFields: =["Value"]
+                SearchItems: =Choices(BD_Programadas_Andamios.Actividad,DataCardValue19.SearchText)
+                SelectMultiple: =false
+                Size: =21
+                Width: =Parent.Width - 60
+                X: =40
+                Y: =DataCardKey19.Y + DataCardKey19.Height + 5
+                ZIndex: =2
+
+            ErrorMessage4 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue19.Y + DataCardValue19.Height
+                ZIndex: =3
+
+            StarVisible4 As label:
+                Align: =Align.Center
+                Height: =DataCardKey19.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey19.Y
+                ZIndex: =4
+
+        Tipo_DataCard1 As typedDataCard.comboBoxViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_9"
+            Default: =ThisItem.Tipo
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BD_Programadas_Andamios],DataSourceInfo.DisplayName,Tipo)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue33.Selected
+            Width: =640
+            X: =0
+            Y: =6
+            ZIndex: =1
+
+            DataCardKey35 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Tipo:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue33 As combobox:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                DefaultSelectedItems: =Parent.Default
+                DisplayFields: =["Value"]
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                Height: =35
+                Items: =Choices([@BD_Programadas_Andamios].Tipo)
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SearchFields: =["Value"]
+                SearchItems: =Choices(BD_Programadas_Andamios.Tipo,DataCardValue33.SearchText)
+                SelectMultiple: =false
+                Size: =19
+                Width: =Parent.Width - 60
+                X: =40
+                Y: =DataCardKey35.Y + DataCardKey35.Height + 5
+                ZIndex: =2
+
+            ErrorMessage5 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue33.Y + DataCardValue33.Height
+                ZIndex: =3
+
+            StarVisible5 As label:
+                Align: =Align.Center
+                Height: =DataCardKey35.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey35.Y
+                ZIndex: =4
+
+        HoraInicio_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_10"
+            Default: =ThisItem.HoraInicio
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BD_Programadas_Andamios],DataSourceInfo.DisplayName,HoraInicio)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =7
+            ZIndex: =1
+
+            DataCardKey40 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Hora de inicio:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue38 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =19
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =40
+                Y: =DataCardKey40.Y + DataCardKey40.Height + 5
+                ZIndex: =2
+
+        HoraFin_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_11"
+            Default: =ThisItem.HoraFin
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BD_Programadas_Andamios],DataSourceInfo.DisplayName,HoraFin)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =8
+            ZIndex: =1
+
+            DataCardKey41 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Hora de finalización:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue39 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =19
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =40
+                Y: =DataCardKey41.Y + DataCardKey41.Height + 5
+                ZIndex: =2
+
+        NoAndamieros_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_12"
+            Default: =ThisItem.NoAndamieros
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@BD_Programadas_Andamios],DataSourceInfo.DisplayName,NoAndamieros)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =9
+            ZIndex: =1
+
+            DataCardKey43 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Número de andamieros:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue41 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =19
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =40
+                Y: =DataCardKey43.Y + DataCardKey43.Height + 5
+                ZIndex: =2
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =19
+
+        fondoAviso_9 As rectangle:
+            Fill: =RGBA(56, 96, 178, 0.2)
+            Height: =1136
+            Visible: =mensajeEliminarProgramada
+            Width: =640
+            ZIndex: =12
+
+        Rectangle4_9 As rectangle:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =340
+            Visible: =mensajeEliminarProgramada
+            Width: =527
+            X: =56
+            Y: =445
+            ZIndex: =13
+
+        Rectangle5_9 As rectangle:
+            Fill: =RGBA(255, 217, 0, 1)
+            Height: =98
+            Visible: =mensajeEliminarProgramada
+            Width: =527
+            X: =56
+            Y: =432
+            ZIndex: =14
+
+        Label4_9 As label:
+            Align: =Align.Center
+            Font: =Font.'Lato Black'
+            FontWeight: =FontWeight.Bold
+            Height: =63
+            Size: =21
+            Text: ="ELIMINAR SOLICITUD"
+            Visible: =mensajeEliminarProgramada
+            Width: =355
+            X: =142
+            Y: =452
+            ZIndex: =15
+
+        Label7_13 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =125
+            Italic: =true
+            Size: =21
+            Text: ="¿Quiere eliminar la solicitud?"
+            Visible: =mensajeEliminarProgramada
+            Width: =527
+            X: =56
+            Y: =529
+            ZIndex: =16
+
+        Button3_9 As button:
+            Fill: =RGBA(184, 0, 0, 1)
+            Height: =75
+            HoverFill: =ColorFade(Self.Fill, -20%)
+            OnSelect: =Remove(BD_Programadas_Andamios, galListaSolicitudesProgramadas.Selected); If (IsEmpty(Errors(BD_Programadas_Andamios, galListaSolicitudesProgramadas.Selected)), Back()); Set(mensajeEliminarProgramada, false); Notify("¡Soliciud eliminada correctamente!", NotificationType.Success, 2000)
+            Size: =20
+            Text: ="SI"
+            Visible: =mensajeEliminarProgramada
+            Width: =165
+            X: =115
+            Y: =684
+            ZIndex: =17
+
+        Button3_10 As button:
+            Fill: =RGBA(92, 92, 92, 1)
+            Height: =75
+            HoverFill: =ColorFade(RGBA(92, 92, 92, 100), -20%)
+            OnSelect: =Set(mensajeEliminarProgramada, false)
+            Size: =20
+            Text: ="NO"
+            Visible: =mensajeEliminarProgramada
+            Width: =165
+            X: =361
+            Y: =684
+            ZIndex: =18
+

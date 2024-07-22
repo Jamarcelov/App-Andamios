@@ -1,0 +1,286 @@
+"'Listado Solicitudes Programadas' As screen":
+
+    recPieSolicitudesProgramadas As rectangle:
+        BorderColor: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(153, 153, 153, 1)
+        Height: =2
+        Width: =640
+        Y: =1044
+        ZIndex: =1
+
+    lblPieSolicitudesProgramadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =70
+        Italic: =true
+        Size: =21
+        Text: =Year(Today()) & " - Servicios a la operación (CMSA)"
+        Width: =560
+        X: =40
+        Y: =1057
+        ZIndex: =2
+
+    rectEncabezadoSolicitudesProramadas As rectangle:
+        BorderColor: =RGBA(252, 194, 0, 1)
+        Fill: =RGBA(255, 217, 0, 1)
+        Height: =135
+        Width: =640
+        ZIndex: =3
+
+    lblTituloSolicitudesProgramadas As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =100
+        Size: =20
+        Text: ="LISTADO DE SOLICITUDES PROGRAMADAS"
+        Width: =600
+        X: =20
+        Y: =17
+        ZIndex: =4
+
+    lblInicioSolicitudesProgramadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: =Navigate(Inicio, ScreenTransition.CoverRight); Reset(dtBuscarFechaDesdeProgramadas); Reset(dtBuscarFechaHastaProgramadas)
+        Size: =16
+        Text: ="Ir a inicio"
+        Width: =135
+        X: =504
+        Y: =1004
+        ZIndex: =5
+
+    icoInicioSolicitudesProgramadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =75
+        Icon: =Icon.Home
+        OnSelect: =Navigate(Inicio, ScreenTransition.CoverRight); Reset(dtBuscarFechaDesdeProgramadas); Reset(dtBuscarFechaHastaProgramadas)
+        Width: =75
+        X: =534
+        Y: =929
+        ZIndex: =6
+
+    lblVerResumenSolicitudesProgramadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: =Navigate('Resumen Solicitudes Programadas', ScreenTransition.Cover)
+        Size: =16
+        Text: ="Ver Resumen"
+        Width: =140
+        X: =324
+        Y: =1004
+        ZIndex: =7
+
+    icoVerResumenSolicitudesProgramadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =72
+        Icon: =Icon.View
+        OnSelect: =Navigate('Resumen Solicitudes Programadas', ScreenTransition.Cover)
+        Width: =72
+        X: =358
+        Y: =929
+        ZIndex: =8
+
+    lblRefrescarSolicitudesProgramadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: =Reset(dtBuscarFechaDesdeProgramadas); Reset(dtBuscarFechaHastaProgramadas)
+        Size: =16
+        Text: ="Quitar filtro"
+        Width: =136
+        X: =152
+        Y: =1004
+        ZIndex: =9
+
+    icoRefrescarSolicitudesProgramadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =72
+        Icon: =Icon.Reload
+        OnSelect: =Reset(dtBuscarFechaDesdeProgramadas); Reset(dtBuscarFechaHastaProgramadas)
+        Width: =72
+        X: =181
+        Y: =932
+        ZIndex: =10
+
+    lblAgregarSolicitudesProgramadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: =NewForm(frmRegistroSolicitudesProgramadas); Navigate('Registro Solicitudes Programadas', ScreenTransition.Cover)
+        Size: =16
+        Text: ="Agregar"
+        Width: =109
+        X: =12
+        Y: =1004
+        ZIndex: =11
+
+    icoAgregarSolicitudesProgramadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =75
+        Icon: =Icon.Add
+        OnSelect: =NewForm(frmRegistroSolicitudesProgramadas); Navigate('Registro Solicitudes Programadas', ScreenTransition.Cover)
+        Width: =75
+        X: =29
+        Y: =929
+        ZIndex: =12
+
+    "galListaSolicitudesProgramadas As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
+        '#CopilotOverlayLabel': ="Filtrada"
+        BorderColor: =RGBA(92, 92, 92, 1)
+        Height: =459
+        Items: =If(IsBlank(dtBuscarFechaDesdeProgramadas.SelectedDate) And IsBlank(dtBuscarFechaHastaProgramadas.SelectedDate), Filter(BD_Programadas_Andamios, Usuario = galLoginUsuario.Selected.Nombre), Filter(BD_Programadas_Andamios, FechaActividad >= dtBuscarFechaDesdeProgramadas.SelectedDate And FechaActividad <= (dtBuscarFechaHastaProgramadas.SelectedDate)))
+        Layout: =Layout.Vertical
+        OnSelect: =Navigate('Detalle Solicitudes Programadas', ScreenTransition.Cover)
+        TemplatePadding: =0
+        TemplateSize: =133
+        Y: =420
+        ZIndex: =13
+
+        Title2 As label:
+            Font: =Font.Lato
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Actividad.Value
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =16
+            ZIndex: =1
+
+        Subtitle2 As label:
+            Font: =Font.Lato
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Lugar
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Title2.Y + Title2.Height + 2
+            ZIndex: =2
+
+        Body1 As label:
+            Font: =Font.Lato
+            Height: =Self.Size * 4
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.FechaActividad
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Subtitle2.Y + Subtitle2.Height + 4
+            ZIndex: =3
+
+        NextArrow2 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(92, 92, 92, 1)
+            Height: =62
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Ver los detalles del elemento"
+            Width: =62
+            X: =562
+            Y: =37
+            ZIndex: =4
+
+        Separator2 As rectangle:
+            Fill: =RGBA(92, 92, 92, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+    recBuscarSolicitudesProgramadas As rectangle:
+        BorderColor: =RGBA(128, 128, 128, 1)
+        BorderThickness: =2
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =226
+        Width: =620
+        X: =10
+        Y: =147
+        ZIndex: =14
+
+    dtBuscarFechaHastaProgramadas As datepicker:
+        BorderColor: =RGBA(92, 92, 92, 1)
+        DefaultDate: =
+        Font: =Font.Lato
+        Height: =70
+        IconBackground: =RGBA(92, 92, 92, 1)
+        InputTextPlaceholder: =
+        Size: =20
+        Width: =350
+        X: =195
+        Y: =288
+        ZIndex: =15
+
+    lblBuscarFechaHastaProgramadas As label:
+        Font: =Font.Lato
+        Height: =32
+        Italic: =true
+        OnSelect: =Navigate(Inicio, ScreenTransition.CoverRight)
+        Size: =20
+        Text: |-
+            ="Hasta:"
+        Width: =135
+        X: =20
+        Y: =288
+        ZIndex: =16
+
+    dtBuscarFechaDesdeProgramadas As datepicker:
+        BorderColor: =RGBA(92, 92, 92, 1)
+        DefaultDate: =
+        Font: =Font.Lato
+        Height: =70
+        IconBackground: =RGBA(92, 92, 92, 1)
+        InputTextPlaceholder: =
+        Size: =20
+        Width: =350
+        X: =195
+        Y: =203
+        ZIndex: =17
+
+    lblBuscarFechaDesdeProgramadas As label:
+        Font: =Font.Lato
+        Height: =32
+        Italic: =true
+        OnSelect: =Navigate(Inicio, ScreenTransition.CoverRight)
+        Size: =20
+        Text: |-
+            ="Desde:"
+        Width: =135
+        X: =20
+        Y: =203
+        ZIndex: =18
+
+    lblBuscarSolicitudesProgramadas As label:
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =32
+        OnSelect: =Navigate(Inicio, ScreenTransition.CoverRight)
+        Size: =20
+        Text: |-
+            ="Buscar solicitudes:"
+        Width: =400
+        X: =20
+        Y: =152
+        ZIndex: =19
+

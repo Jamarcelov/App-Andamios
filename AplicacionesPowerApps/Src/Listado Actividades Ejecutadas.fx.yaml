@@ -1,0 +1,286 @@
+"'Listado Actividades Ejecutadas' As screen":
+
+    recPieActividadesEjecutadas As rectangle:
+        BorderColor: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(153, 153, 153, 1)
+        Height: =2
+        Width: =640
+        Y: =1044
+        ZIndex: =1
+
+    lblPieActividadesEjecutadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =70
+        Italic: =true
+        Size: =21
+        Text: =Year(Today()) & " - Servicios a la operación (CMSA)"
+        Width: =560
+        X: =40
+        Y: =1057
+        ZIndex: =2
+
+    rectEncabezadoActividadesEjecutadas As rectangle:
+        BorderColor: =RGBA(252, 194, 0, 1)
+        Fill: =RGBA(255, 217, 0, 1)
+        Height: =135
+        Width: =640
+        ZIndex: =3
+
+    lblTituloActividadesEjecutadas As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =100
+        Size: =20
+        Text: ="LISTADO DE ACTIVIDADES EJECUTADAS"
+        Width: =600
+        X: =20
+        Y: =17
+        ZIndex: =4
+
+    lblInicioActividadesEjecutadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: =Navigate(Inicio, ScreenTransition.CoverRight); Reset(dtBuscarFechaDesdeActividadesEjecutadas); Reset(dtBuscarFechaHastaActividadesEjecutadas)
+        Size: =16
+        Text: ="Ir a inicio"
+        Width: =135
+        X: =504
+        Y: =1004
+        ZIndex: =5
+
+    icoInicioActividadesEjecutadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =75
+        Icon: =Icon.Home
+        OnSelect: =Navigate(Inicio, ScreenTransition.CoverRight); Reset(dtBuscarFechaDesdeActividadesEjecutadas); Reset(dtBuscarFechaHastaActividadesEjecutadas)
+        Width: =75
+        X: =534
+        Y: =929
+        ZIndex: =6
+
+    lblVerResumenActividadesEjecutadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: =Navigate('Contenedor Resumen Actividades Ejecutadas', ScreenTransition.Cover)
+        Size: =16
+        Text: ="Ver Resumen"
+        Width: =140
+        X: =324
+        Y: =1004
+        ZIndex: =7
+
+    icoVerResumenActividadesEjecutadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =72
+        Icon: =Icon.View
+        OnSelect: =Navigate('Resumen Actividades Ejecutadas', ScreenTransition.Cover)
+        Width: =72
+        X: =358
+        Y: =929
+        ZIndex: =8
+
+    lblRefrescarActividadesEjecutadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: =Reset(dtBuscarFechaDesdeActividadesEjecutadas); Reset(dtBuscarFechaHastaActividadesEjecutadas)
+        Size: =16
+        Text: ="Quitar filtro"
+        Width: =134
+        X: =153
+        Y: =1004
+        ZIndex: =9
+
+    icoRefrescarActividadesEjecutadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =72
+        Icon: =Icon.Reload
+        OnSelect: =Reset(dtBuscarFechaDesdeActividadesEjecutadas); Reset(dtBuscarFechaHastaActividadesEjecutadas)
+        Width: =72
+        X: =181
+        Y: =932
+        ZIndex: =10
+
+    lblAgregarActividadesEjecutadas As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: =NewForm(frmRegistroActividadesEjecutadas); Navigate('Registro Actividades Ejecutadas', ScreenTransition.Cover)
+        Size: =16
+        Text: ="Agregar"
+        Width: =109
+        X: =12
+        Y: =1004
+        ZIndex: =11
+
+    icoAgregarActividadesEjecutadas As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =75
+        Icon: =Icon.Add
+        OnSelect: =NewForm(frmRegistroActividadesEjecutadas); Navigate('Registro Actividades Ejecutadas', ScreenTransition.Cover)
+        Width: =75
+        X: =29
+        Y: =929
+        ZIndex: =12
+
+    "galListaActividadesEjecutadas As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
+        '#CopilotOverlayLabel': ="Filtrada"
+        BorderColor: =RGBA(92, 92, 92, 1)
+        Height: =459
+        Items: =If(IsBlank(dtBuscarFechaDesdeActividadesEjecutadas.SelectedDate) And IsBlank(dtBuscarFechaHastaActividadesEjecutadas.SelectedDate), Filter(BD_Ejecutadas_Andamios, Usuario = galLoginUsuario.Selected.Nombre), Filter(BD_Ejecutadas_Andamios, FechaActividad >= dtBuscarFechaDesdeActividadesEjecutadas.SelectedDate And FechaActividad <= (dtBuscarFechaHastaActividadesEjecutadas.SelectedDate)))
+        Layout: =Layout.Vertical
+        OnSelect: =Navigate('Detalle Actividades Ejecutadas', ScreenTransition.Cover)
+        TemplatePadding: =0
+        TemplateSize: =133
+        Y: =420
+        ZIndex: =13
+
+        Title2_1 As label:
+            Font: =Font.Lato
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Actividad.Value
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =16
+            ZIndex: =1
+
+        Subtitle2_1 As label:
+            Font: =Font.Lato
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Lugar
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Title2_1.Y + Title2_1.Height + 2
+            ZIndex: =2
+
+        Body1_1 As label:
+            Font: =Font.Lato
+            Height: =Self.Size * 4
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.FechaActividad
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =90.4
+            ZIndex: =3
+
+        NextArrow2_1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(92, 92, 92, 1)
+            Height: =62
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Ver los detalles del elemento"
+            Width: =62
+            X: =562
+            Y: =37
+            ZIndex: =4
+
+        Separator2_1 As rectangle:
+            Fill: =RGBA(92, 92, 92, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+    recBuscarActividadesEjecutadas As rectangle:
+        BorderColor: =RGBA(128, 128, 128, 1)
+        BorderThickness: =2
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =226
+        Width: =620
+        X: =10
+        Y: =147
+        ZIndex: =14
+
+    dtBuscarFechaHastaActividadesEjecutadas As datepicker:
+        BorderColor: =RGBA(92, 92, 92, 1)
+        DefaultDate: =
+        Font: =Font.Lato
+        Height: =70
+        IconBackground: =RGBA(92, 92, 92, 1)
+        InputTextPlaceholder: =
+        Size: =20
+        Width: =350
+        X: =195
+        Y: =288
+        ZIndex: =15
+
+    lblBuscarFechaHastaActividadesEjecutadas As label:
+        Font: =Font.Lato
+        Height: =32
+        Italic: =true
+        OnSelect: =Navigate(Inicio, ScreenTransition.CoverRight)
+        Size: =20
+        Text: |-
+            ="Hasta:"
+        Width: =135
+        X: =20
+        Y: =288
+        ZIndex: =16
+
+    dtBuscarFechaDesdeActividadesEjecutadas As datepicker:
+        BorderColor: =RGBA(92, 92, 92, 1)
+        DefaultDate: =
+        Font: =Font.Lato
+        Height: =70
+        IconBackground: =RGBA(92, 92, 92, 1)
+        InputTextPlaceholder: =
+        Size: =20
+        Width: =350
+        X: =195
+        Y: =203
+        ZIndex: =17
+
+    lblBuscarFechaDesdeActividadesEjecutadas As label:
+        Font: =Font.Lato
+        Height: =32
+        Italic: =true
+        OnSelect: =Navigate(Inicio, ScreenTransition.CoverRight)
+        Size: =20
+        Text: |-
+            ="Desde:"
+        Width: =135
+        X: =20
+        Y: =203
+        ZIndex: =18
+
+    lblBuscarActividadesEjecutadas As label:
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =32
+        OnSelect: =Navigate(Inicio, ScreenTransition.CoverRight)
+        Size: =20
+        Text: |-
+            ="Buscar actividades:"
+        Width: =400
+        X: =20
+        Y: =152
+        ZIndex: =19
+
