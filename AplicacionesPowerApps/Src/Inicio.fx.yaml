@@ -48,7 +48,7 @@ Inicio As screen:
         Text: ="REGISTRO DE PROGRAMACIÓN"
         Width: =368
         X: =136
-        Y: =469
+        Y: =435
         ZIndex: =5
 
     lblEjecutadas As label:
@@ -60,7 +60,7 @@ Inicio As screen:
         Text: ="REGISTRO DE ACTIVIDADES"
         Width: =341
         X: =150
-        Y: =818
+        Y: =784
         ZIndex: =6
 
     imgEjecutadas As image:
@@ -69,7 +69,7 @@ Inicio As screen:
         OnSelect: =Navigate('Listado Actividades Ejecutadas', ScreenTransition.Cover)
         Width: =165
         X: =238
-        Y: =663
+        Y: =629
         ZIndex: =7
 
     imgProgramadas As image:
@@ -78,7 +78,7 @@ Inicio As screen:
         OnSelect: =Navigate('Listado Solicitudes Programadas', ScreenTransition.Cover)
         Width: =150
         X: =245
-        Y: =314
+        Y: =280
         ZIndex: =8
 
     lblNombreUsuario As label:
@@ -102,4 +102,26 @@ Inicio As screen:
         X: =20
         Y: =152
         ZIndex: =10
+
+    icoInicioSolicitudesProgramadas_1 As icon.ChevronDown:
+        Color: =RGBA(92, 92, 92, 1)
+        Height: =75
+        Icon: =Icon.Leave
+        OnSelect: =Navigate(Login, ScreenTransition.CoverRight); Reset(txtUsuarioLogin); Reset(txtClaveLogin)
+        Width: =75
+        X: =545
+        Y: =861
+        ZIndex: =12
+
+    lblInicioSolicitudesProgramadas_1 As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =32
+        OnSelect: =Navigate(Login, ScreenTransition.CoverRight)
+        Size: =16
+        Text: ="Salir"
+        Width: =135
+        X: =504
+        Y: =936
+        ZIndex: =13
 
