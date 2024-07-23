@@ -114,19 +114,19 @@
           "BD_Ejecutadas_Andamios": {
             "tableName": "85d26fba-68a7-4bb1-b9ee-279d5cd2807e"
           },
-          "BD_Login_Andamios": {
-            "tableName": "1274cc0e-47e0-4691-81c8-6eac7a882f0d"
-          },
           "BD_Programadas_Andamios": {
             "tableName": "960c2b52-cb23-4146-803f-8827236405e8"
+          },
+          "Usuario_andamios": {
+            "tableName": "b747ee16-c236-4632-8651-4bf0f8dd2ccf"
           }
         }
       }
     },
     "dataSources": [
       "BD_Programadas_Andamios",
-      "BD_Login_Andamios",
-      "BD_Ejecutadas_Andamios"
+      "BD_Ejecutadas_Andamios",
+      "Usuario_andamios"
     ],
     "dependencies": {},
     "dependents": [],

@@ -131,7 +131,7 @@
         '#CopilotOverlayLabel': ="Filtrada"
         BorderColor: =RGBA(92, 92, 92, 1)
         Height: =459
-        Items: =If(IsBlank(dtBuscarFechaDesdeActividadesEjecutadas.SelectedDate) And IsBlank(dtBuscarFechaHastaActividadesEjecutadas.SelectedDate), Filter(BD_Ejecutadas_Andamios, Usuario = galLoginUsuario.Selected.Nombre), Filter(BD_Ejecutadas_Andamios, FechaActividad >= dtBuscarFechaDesdeActividadesEjecutadas.SelectedDate And FechaActividad <= (dtBuscarFechaHastaActividadesEjecutadas.SelectedDate)))
+        Items: =If(IsBlank(dtBuscarFechaDesdeActividadesEjecutadas.SelectedDate) And IsBlank(dtBuscarFechaHastaActividadesEjecutadas.SelectedDate), Filter(BD_Ejecutadas_Andamios, Usuario = lblNombreUsuario.Text), Filter(BD_Ejecutadas_Andamios, FechaActividad >= dtBuscarFechaDesdeActividadesEjecutadas.SelectedDate And FechaActividad <= (dtBuscarFechaHastaActividadesEjecutadas.SelectedDate)))
         Layout: =Layout.Vertical
         OnSelect: =Navigate('Detalle Actividades Ejecutadas', ScreenTransition.Cover)
         TemplatePadding: =0

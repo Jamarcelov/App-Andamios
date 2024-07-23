@@ -612,7 +612,7 @@
 
             DataCardValue5 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =galLoginUsuario.Selected.Nombre
+                Default: =lblNombreUsuario.Text
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Font: =Font.Lato

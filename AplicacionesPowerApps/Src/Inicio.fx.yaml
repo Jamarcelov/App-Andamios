@@ -81,34 +81,16 @@ Inicio As screen:
         Y: =314
         ZIndex: =8
 
-    "galLoginUsuario As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
-        '#CopilotOverlayLabel': ="Filtrada"
-        Height: =99
-        Items: =LookUp(BD_Login_Andamios, Usuario = txtUsuarioLogin.Text)
-        Layout: =Layout.Vertical
-        TemplatePadding: =0
-        TemplateSize: =42
-        Width: =388
-        X: =158
-        Y: =156
+    lblNombreUsuario As label:
+        Font: =Font.Lato
+        Height: =46
+        Italic: =true
+        Size: =20
+        Text: =LookUp(Usuario_andamios, usuario_usuario = txtUsuarioLogin.Text,nombre_usuario)
+        Width: =315
+        X: =190
+        Y: =152
         ZIndex: =9
-
-        Title3 As label:
-            Font: =Font.Lato
-            FontWeight: =FontWeight.Normal
-            Height: =36
-            Italic: =true
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.Nombre
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =3
-            ZIndex: =1
 
     Label2 As label:
         Font: =Font.Lato

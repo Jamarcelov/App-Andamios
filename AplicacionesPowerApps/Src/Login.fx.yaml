@@ -44,20 +44,41 @@ Login As screen:
         Height: =80
         HoverFill: =ColorFade(RGBA(92, 92, 92, 100), -20%)
         OnSelect: |-
-            =If(
+            =/*If(
                 !IsBlank(
                     LookUp(
-                        BD_Login_Andamios,
+                        BD_Login_Andamios;
                         Usuario = txtUsuarioLogin.Text And Clave = txtClaveLogin.Text
                     )
+                );
+                Navigate(
+                    Inicio;
+                    ScreenTransition.Cover
+                );
+                Set(
+                    avisoLogin;
+                    true
+                )
+            )*/
+            
+            If(
+                txtUsuarioLogin.Text = LookUp(
+                    Usuario_andamios,
+                    usuario_usuario = txtUsuarioLogin.Text,
+                    usuario_usuario
+                ) && txtClaveLogin.Text = LookUp(
+                    Usuario_andamios,
+                    contrasena_usuario = txtClaveLogin.Text,
+                    contrasena_usuario
                 ),
                 Navigate(
                     Inicio,
                     ScreenTransition.Cover
                 ),
-                Set(
-                    avisoLogin,
-                    true
+                Notify(
+                    "¡Credenciales incorrectas. Por favor, verifique su usuario o su contraseña",
+                    NotificationType.Error,
+                    2500
                 )
             )
         RadiusBottomLeft: =15

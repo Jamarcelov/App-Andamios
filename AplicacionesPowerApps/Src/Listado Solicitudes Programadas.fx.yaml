@@ -131,7 +131,7 @@
         '#CopilotOverlayLabel': ="Filtrada"
         BorderColor: =RGBA(92, 92, 92, 1)
         Height: =459
-        Items: =If(IsBlank(dtBuscarFechaDesdeProgramadas.SelectedDate) And IsBlank(dtBuscarFechaHastaProgramadas.SelectedDate), Filter(BD_Programadas_Andamios, Usuario = galLoginUsuario.Selected.Nombre), Filter(BD_Programadas_Andamios, FechaActividad >= dtBuscarFechaDesdeProgramadas.SelectedDate And FechaActividad <= (dtBuscarFechaHastaProgramadas.SelectedDate)))
+        Items: =If(IsBlank(dtBuscarFechaDesdeProgramadas.SelectedDate) And IsBlank(dtBuscarFechaHastaProgramadas.SelectedDate), Filter(BD_Programadas_Andamios, Usuario = lblNombreUsuario.Text), Filter(BD_Programadas_Andamios, FechaActividad >= dtBuscarFechaDesdeProgramadas.SelectedDate And FechaActividad <= (dtBuscarFechaHastaProgramadas.SelectedDate)))
         Layout: =Layout.Vertical
         OnSelect: =Navigate('Detalle Solicitudes Programadas', ScreenTransition.Cover)
         TemplatePadding: =0
