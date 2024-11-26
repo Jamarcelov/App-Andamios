@@ -14,3788 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "NoSemana2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NoSemana2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 78,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;NoSemana2)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".NoSemana2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NoSemana2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DataCardValue2.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DataCardValue2.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 19,
-                  "snippet": {
-                    "text": ".FechaActividad"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DataCardValue2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "FechaActividad"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DataCardValue2.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DataCardValue2.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ISOWeekNum"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoSemana2_DataCard1.DataCardValue2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ISOWeekNum"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "FechaActividad"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "FechaActividad"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 83,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;FechaActividad)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".FechaActividad"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.FechaActividad_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "FechaActividad"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "Administrador"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Administrador"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 82,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;Administrador)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Administrador"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Administrador_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Administrador"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "Contratista"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Contratista"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 80,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;Contratista)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Contratista"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Contratista_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Contratista"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "Programacion"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Programacion"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 81,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;Programacion)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Programacion"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Programacion"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.SearchItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.SearchItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SearchItems",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.SearchItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.SearchItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 30,
-                  "snippet": {
-                    "text": ".Programacion"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SearchItems",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.SearchItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.SearchItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Choices"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SearchItems",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Choices"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 10,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 33,
-                  "snippet": {
-                    "text": ".Programacion"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Choices"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Choices"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "Tipo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Tipo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 73,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;Tipo)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Tipo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Tipo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.SearchItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.SearchItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SearchItems",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.SearchItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.SearchItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 30,
-                  "snippet": {
-                    "text": ".Tipo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SearchItems",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.SearchItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.SearchItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Choices"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SearchItems",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Choices"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 10,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 33,
-                  "snippet": {
-                    "text": ".Tipo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Choices"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Choices"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "Lugar"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Lugar"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 74,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;Lugar)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Lugar"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Lugar_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Lugar"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "Actividad"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Actividad"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 78,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;Actividad)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Actividad"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Actividad"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.SearchItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.SearchItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SearchItems",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.SearchItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.SearchItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 30,
-                  "snippet": {
-                    "text": ".Actividad"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SearchItems",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.SearchItems"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.SearchItems",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Choices"
-                  }
-                }
-              },
-              "properties": {
-                "member": "SearchItems",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Choices"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 10,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 33,
-                  "snippet": {
-                    "text": ".Actividad"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.Items",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Choices"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Choices"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "HoraInicio"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "HoraInicio"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 79,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;HoraInicio)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 11,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".HoraInicio"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraInicio_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "HoraInicio"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "HoraFin"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "HoraFin"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 76,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;HoraFin)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".HoraFin"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.HoraFin_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "HoraFin"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 12,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "NoAndamieros"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NoAndamieros"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 81,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;NoAndamieros)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 13,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".NoAndamieros"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.NoAndamieros_DataCard3"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "NoAndamieros"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "Largo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Largo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 74,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;Largo)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Largo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Largo_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Largo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "Ancho"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Ancho"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 74,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;Ancho)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Ancho"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Ancho_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Ancho"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "Alto"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Alto"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 73,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;Alto)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Alto"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Alto_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Alto"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 17,
-                  "snippet": {
-                    "text": "BD_Ejecutadas_Andamios"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BD_Ejecutadas_Andamios"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataSourceInfo"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 68,
-                  "snippet": {
-                    "text": "Adicional"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Adicional"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1.DisplayName"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1.DisplayName",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 78,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "DataSourceInfo([@BD_Ejecutadas_Andamios];DataSourceInfo.DisplayName;Adicional)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayName",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_Min"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1.Default",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 8,
-                  "snippet": {
-                    "text": ".Adicional"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Adicional_DataCard1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Adicional"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.Button3_12.OnSelect"
                 }
               ],
@@ -3866,7 +84,7 @@
             "level": "Medium"
           },
           "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
-          "ruleIndex": 3
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3906,7 +124,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3986,7 +204,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4106,7 +324,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4186,7 +404,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -4346,7 +564,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4426,7 +644,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -4586,7 +804,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4666,7 +884,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -4746,7 +964,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4826,7 +1044,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -4986,7 +1204,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5066,7 +1284,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -5146,7 +1364,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5226,7 +1444,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -5423,7 +1641,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5540,7 +1758,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5620,7 +1838,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5700,7 +1918,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -5897,7 +2115,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6014,7 +2232,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6094,7 +2312,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6174,7 +2392,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -6334,7 +2552,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6414,7 +2632,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -6494,7 +2712,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6574,7 +2792,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -6771,7 +2989,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6888,7 +3106,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6968,7 +3186,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -7048,7 +3266,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -7208,7 +3426,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -7288,7 +3506,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -7368,7 +3586,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -7448,7 +3666,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -7608,7 +3826,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -7688,7 +3906,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -7768,7 +3986,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -7848,7 +4066,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -8008,7 +4226,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -8088,7 +4306,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -8248,7 +4466,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -8328,7 +4546,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -8488,7 +4706,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -8568,7 +4786,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -8728,7 +4946,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -8808,7 +5026,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -8968,7 +5186,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -9048,7 +5266,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -9128,7 +5346,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -9208,7 +5426,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -9368,7 +5586,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -9448,7 +5666,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -9528,7 +5746,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -9608,7 +5826,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -9768,7 +5986,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -10288,7 +6506,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -10368,7 +6586,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -10528,7 +6746,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -10608,7 +6826,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -10768,7 +6986,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -10848,7 +7066,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -10928,7 +7146,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -11008,7 +7226,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -11168,7 +7386,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -11248,7 +7466,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -11328,7 +7546,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -11408,7 +7626,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -11605,7 +7823,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -11722,7 +7940,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -11802,7 +8020,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -11882,7 +8100,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -12079,7 +8297,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -12196,7 +8414,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -12276,7 +8494,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -12356,7 +8574,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -12516,7 +8734,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -12596,7 +8814,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -12676,7 +8894,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -12756,7 +8974,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -12953,7 +9171,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -13070,7 +9288,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -13150,7 +9368,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -13230,7 +9448,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -13390,7 +9608,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -13470,7 +9688,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -13550,7 +9768,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -13630,7 +9848,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -13710,7 +9928,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -13790,7 +10008,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -13870,7 +10088,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -14030,7 +10248,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -14110,7 +10328,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -14190,7 +10408,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -14270,7 +10488,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -14350,7 +10568,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -14430,7 +10648,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -14510,7 +10728,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -14670,7 +10888,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -14750,7 +10968,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -14910,7 +11128,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -14990,7 +11208,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -15150,7 +11368,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -15230,7 +11448,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -15390,7 +11608,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -15470,7 +11688,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -15630,7 +11848,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -15710,7 +11928,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -15790,7 +12008,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -15870,7 +12088,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -16030,7 +12248,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -16110,7 +12328,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadType-Type",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -18391,96 +14609,6 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Programacion_DataCard1.DataCardValue26"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Tipo_DataCard3.DataCardValue27"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Detalle Actividades Ejecutadas",
-                "type": "'Detalle Actividades Ejecutadas'.frmDetalleActividadesEjecutadas.Actividad_DataCard3.DataCardValue30"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
         },
         {
           "locations": [
@@ -23906,6 +20034,23 @@
               }
             },
             {
+              "id": "app-ErrCollectionDoesNotAcceptThisType",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible type. The collection can't contain values of this type."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "You might need to convert the type of the item using, for example, a Datevalue, Text, or Value function."
+                ],
+                "level": "Medium",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
               "id": "app-ErrInvalidArgs-Func",
               "messageStrings": {
                 "issue": {
@@ -23929,23 +20074,6 @@
               "properties": {
                 "componentType": "app",
                 "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrCollectionDoesNotAcceptThisType",
-              "messageStrings": {
-                "issue": {
-                  "text": "Incompatible type. The collection can't contain values of this type."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "You might need to convert the type of the item using, for example, a Datevalue, Text, or Value function."
-                ],
-                "level": "Medium",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }
