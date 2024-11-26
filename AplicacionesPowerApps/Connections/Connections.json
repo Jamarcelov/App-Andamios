@@ -111,11 +111,11 @@
     "datasets": {
       "https://south32-my.sharepoint.com/personal/marcj1_south32_net": {
         "dataSources": {
-          "BD_Ejecutadas_Andamios": {
-            "tableName": "85d26fba-68a7-4bb1-b9ee-279d5cd2807e"
-          },
           "BD_Programadas_Andamios": {
             "tableName": "960c2b52-cb23-4146-803f-8827236405e8"
+          },
+          "Ejecucion_andamio": {
+            "tableName": "2d41baa4-9296-4e73-a79a-a74b1a00842b"
           },
           "Usuario_andamios": {
             "tableName": "b747ee16-c236-4632-8651-4bf0f8dd2ccf"
@@ -125,8 +125,8 @@
     },
     "dataSources": [
       "BD_Programadas_Andamios",
-      "BD_Ejecutadas_Andamios",
-      "Usuario_andamios"
+      "Usuario_andamios",
+      "Ejecucion_andamio"
     ],
     "dependencies": {},
     "dependents": [],

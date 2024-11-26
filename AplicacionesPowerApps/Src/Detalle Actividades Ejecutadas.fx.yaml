@@ -106,7 +106,7 @@
         ZIndex: =10
 
     frmDetalleActividadesEjecutadas As formViewer:
-        DataSource: =BD_Ejecutadas_Andamios
+        DataSource: =Ejecucion_andamio
         Height: =718
         Item: =galListaActividadesEjecutadas.Selected
         Width: =640
