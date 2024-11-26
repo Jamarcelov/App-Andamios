@@ -258,9 +258,13 @@
 
             DataCardKey6 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: |-
+                    ="Contratista:"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -270,10 +274,11 @@
             DataCardValue6 As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Size: =21
+                Size: =19
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
@@ -297,9 +302,13 @@
 
             DataCardKey7 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: |-
+                    ="Programación:"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -311,13 +320,14 @@
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
                 Height: =70
                 Items: =Choices([@Ejecucion_andamio].field_4)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
                 SearchItems: =Choices(Ejecucion_andamio.field_4,DataCardValue7.SearchText)
                 SelectMultiple: =false
-                Size: =21
+                Size: =19
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey7.Y + DataCardKey7.Height + 5
@@ -367,9 +377,13 @@
 
             DataCardKey9 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: |-
+                    ="Tipo:"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -381,13 +395,14 @@
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
                 Height: =70
                 Items: =Choices([@Ejecucion_andamio].field_5)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
                 SearchItems: =Choices(Ejecucion_andamio.field_5,DataCardValue9.SearchText)
                 SelectMultiple: =false
-                Size: =21
+                Size: =19
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey9.Y + DataCardKey9.Height + 5
@@ -483,7 +498,7 @@
             Fill: =RGBA(184, 0, 0, 1)
             Height: =75
             HoverFill: =ColorFade(Self.Fill, -20%)
-            OnSelect: =Remove(BD_Ejecutadas_Andamios, galListaActividadesEjecutadas.Selected); If (IsEmpty(Errors(BD_Ejecutadas_Andamios, galListaActividadesEjecutadas.Selected)), Back()); Set(mensajeEliminarEjecutada, false); Notify("¡Actividad eliminada correctamente!", NotificationType.Success, 2000)
+            OnSelect: =Remove(Ejecucion_andamio, galListaActividadesEjecutadas.Selected); If (IsEmpty(Errors(Ejecucion_andamio, galListaActividadesEjecutadas.Selected)), Back()); Set(mensajeEliminarEjecutada, false); Notify("¡Actividad eliminada correctamente!", NotificationType.Success, 2000)
             Size: =20
             Text: ="SI"
             Visible: =mensajeEliminarEjecutada
