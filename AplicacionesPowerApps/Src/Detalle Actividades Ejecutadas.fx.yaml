@@ -639,6 +639,220 @@
                 Y: =DataCardKey12.Y + DataCardKey12.Height + 5
                 ZIndex: =2
 
+        no_andamiero_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_11"
+            Default: =ThisItem.no_andamiero
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Ejecucion_andamio],DataSourceInfo.DisplayName,field_11)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =10
+            ZIndex: =1
+
+            DataCardKey16 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Número de andamieros:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue16 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =19
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey16.Y + DataCardKey16.Height + 5
+                ZIndex: =2
+
+        largo_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_13"
+            Default: =ThisItem.largo
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Ejecucion_andamio],DataSourceInfo.DisplayName,field_13)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =11
+            ZIndex: =1
+
+            DataCardKey29 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Largo:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue26 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =19
+                Text: =Parent.Default &" m"
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey29.Y + DataCardKey29.Height + 5
+                ZIndex: =2
+
+        ancho_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_14"
+            Default: =ThisItem.ancho
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Ejecucion_andamio],DataSourceInfo.DisplayName,field_14)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =12
+            ZIndex: =1
+
+            DataCardKey30 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Ancho:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue27 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =19
+                Text: =Parent.Default &" m"
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey30.Y + DataCardKey30.Height + 5
+                ZIndex: =2
+
+        alto_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_15"
+            Default: =ThisItem.alto
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Ejecucion_andamio],DataSourceInfo.DisplayName,field_15)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =13
+            ZIndex: =1
+
+            DataCardKey31 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Alto:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue29 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =19
+                Text: =Parent.Default &" m"
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey31.Y + DataCardKey31.Height + 5
+                ZIndex: =2
+
+        ad_largo_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_16"
+            Default: =ThisItem.ad_largo
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Ejecucion_andamio],DataSourceInfo.DisplayName,field_16)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =14
+            ZIndex: =1
+
+            DataCardKey32 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =21
+                Text: |-
+                    ="Adicional:"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue30 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =ThisItem.ad_largo &" m" &" x "& ThisItem.ad_ancho &" m" &" x "& ThisItem.ad_alto &" m"
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey32.Y + DataCardKey32.Height + 5
+                ZIndex: =2
+
     Group1_1 As group:
         Height: =5
         Width: =5
