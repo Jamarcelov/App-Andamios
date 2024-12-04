@@ -6996,1626 +6996,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Inicio.imgProgramadas.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.imgProgramadas.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Inicio",
-                "type": "Inicio.imgProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Inicio.imgProgramadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.imgProgramadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Inicio",
-                "type": "Inicio.imgProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Inicio.lblProgramadas.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.lblProgramadas.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Inicio",
-                "type": "Inicio.lblProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Inicio.lblProgramadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.lblProgramadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Inicio",
-                "type": "Inicio.lblProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Inicio.imgEjecutadas.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.imgEjecutadas.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Inicio",
-                "type": "Inicio.imgEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Inicio.imgEjecutadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.imgEjecutadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Inicio",
-                "type": "Inicio.imgEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Inicio.lblEjecutadas.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.lblEjecutadas.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Inicio",
-                "type": "Inicio.lblEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Inicio.lblEjecutadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.lblEjecutadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Inicio",
-                "type": "Inicio.lblEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Inicio.icoInicioSolicitudesProgramadas_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.icoInicioSolicitudesProgramadas_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Inicio",
-                "type": "Inicio.icoInicioSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Inicio.icoInicioSolicitudesProgramadas_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.icoInicioSolicitudesProgramadas_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Inicio",
-                "type": "Inicio.icoInicioSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Inicio.lblInicioSolicitudesProgramadas_1.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.lblInicioSolicitudesProgramadas_1.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Inicio",
-                "type": "Inicio.lblInicioSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Inicio.lblInicioSolicitudesProgramadas_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.lblInicioSolicitudesProgramadas_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Inicio",
-                "type": "Inicio.lblInicioSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoGenerarPdfResumenActividadesEjecutadas.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoGenerarPdfResumenActividadesEjecutadas.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Resumen Actividades Ejecutadas",
-                "type": "'Resumen Actividades Ejecutadas'.IcoGenerarPdfResumenActividadesEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoGenerarPdfResumenActividadesEjecutadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoGenerarPdfResumenActividadesEjecutadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Resumen Actividades Ejecutadas",
-                "type": "'Resumen Actividades Ejecutadas'.IcoGenerarPdfResumenActividadesEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoAtrasResumenActividadesEjecutadas.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoAtrasResumenActividadesEjecutadas.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Resumen Actividades Ejecutadas",
-                "type": "'Resumen Actividades Ejecutadas'.IcoAtrasResumenActividadesEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoAtrasResumenActividadesEjecutadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoAtrasResumenActividadesEjecutadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Resumen Actividades Ejecutadas",
-                "type": "'Resumen Actividades Ejecutadas'.IcoAtrasResumenActividadesEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblGenerarPdfResumenActividadesEjecutadas.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblGenerarPdfResumenActividadesEjecutadas.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Resumen Actividades Ejecutadas",
-                "type": "'Resumen Actividades Ejecutadas'.lblGenerarPdfResumenActividadesEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblGenerarPdfResumenActividadesEjecutadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblGenerarPdfResumenActividadesEjecutadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Resumen Actividades Ejecutadas",
-                "type": "'Resumen Actividades Ejecutadas'.lblGenerarPdfResumenActividadesEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblAtrasResumenActividadesEjecutadas.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblAtrasResumenActividadesEjecutadas.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Resumen Actividades Ejecutadas",
-                "type": "'Resumen Actividades Ejecutadas'.lblAtrasResumenActividadesEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblAtrasResumenActividadesEjecutadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblAtrasResumenActividadesEjecutadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Resumen Actividades Ejecutadas",
-                "type": "'Resumen Actividades Ejecutadas'.lblAtrasResumenActividadesEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoEnviarPdfSolicitudesProgramadas.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoEnviarPdfSolicitudesProgramadas.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Pdf Solicitudes Programadas",
-                "type": "'Pdf Solicitudes Programadas'.IcoEnviarPdfSolicitudesProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoEnviarPdfSolicitudesProgramadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoEnviarPdfSolicitudesProgramadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Pdf Solicitudes Programadas",
-                "type": "'Pdf Solicitudes Programadas'.IcoEnviarPdfSolicitudesProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoAtrasPdfSolicitudesProgramadas.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoAtrasPdfSolicitudesProgramadas.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Pdf Solicitudes Programadas",
-                "type": "'Pdf Solicitudes Programadas'.IcoAtrasPdfSolicitudesProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoAtrasPdfSolicitudesProgramadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoAtrasPdfSolicitudesProgramadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Pdf Solicitudes Programadas",
-                "type": "'Pdf Solicitudes Programadas'.IcoAtrasPdfSolicitudesProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.icoInicioPdfSolicitudesProgramadas.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.icoInicioPdfSolicitudesProgramadas.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Pdf Solicitudes Programadas",
-                "type": "'Pdf Solicitudes Programadas'.icoInicioPdfSolicitudesProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.icoInicioPdfSolicitudesProgramadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.icoInicioPdfSolicitudesProgramadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Pdf Solicitudes Programadas",
-                "type": "'Pdf Solicitudes Programadas'.icoInicioPdfSolicitudesProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblEnviarPdfSolicitudesProgramadas.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblEnviarPdfSolicitudesProgramadas.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Pdf Solicitudes Programadas",
-                "type": "'Pdf Solicitudes Programadas'.lblEnviarPdfSolicitudesProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblEnviarPdfSolicitudesProgramadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblEnviarPdfSolicitudesProgramadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Pdf Solicitudes Programadas",
-                "type": "'Pdf Solicitudes Programadas'.lblEnviarPdfSolicitudesProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblAtrasPdfSolicitudesProgramadas.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblAtrasPdfSolicitudesProgramadas.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Pdf Solicitudes Programadas",
-                "type": "'Pdf Solicitudes Programadas'.lblAtrasPdfSolicitudesProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblAtrasPdfSolicitudesProgramadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblAtrasPdfSolicitudesProgramadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Pdf Solicitudes Programadas",
-                "type": "'Pdf Solicitudes Programadas'.lblAtrasPdfSolicitudesProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblInicioPdfSolicitudesProgramadas.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblInicioPdfSolicitudesProgramadas.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Pdf Solicitudes Programadas",
-                "type": "'Pdf Solicitudes Programadas'.lblInicioPdfSolicitudesProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblInicioPdfSolicitudesProgramadas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblInicioPdfSolicitudesProgramadas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Pdf Solicitudes Programadas",
-                "type": "'Pdf Solicitudes Programadas'.lblInicioPdfSolicitudesProgramadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.FechaActividad_DataCard2_1.DataCardValue20_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.FechaActividad_DataCard2_1.DataCardValue20_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.FechaActividad_DataCard2_1.DataCardValue20_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Administrador_DataCard2_1.DataCardValue21_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Administrador_DataCard2_1.DataCardValue21_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Administrador_DataCard2_1.DataCardValue21_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Contratista_DataCard2_1.DataCardValue22_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Contratista_DataCard2_1.DataCardValue22_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Contratista_DataCard2_1.DataCardValue22_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Tipo_DataCard2_1.DataCardValue25_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Tipo_DataCard2_1.DataCardValue25_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Tipo_DataCard2_1.DataCardValue25_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Lugar_DataCard2_1.DataCardValue23_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Lugar_DataCard2_1.DataCardValue23_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Lugar_DataCard2_1.DataCardValue23_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Actividad_DataCard2_1.DataCardValue24_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Actividad_DataCard2_1.DataCardValue24_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Actividad_DataCard2_1.DataCardValue24_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.hhInicio_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.hhInicio_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.hhInicio_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.mmInicio_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.mmInicio_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.mmInicio_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.amPmInicio_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.amPmInicio_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.amPmInicio_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.hhFin_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.hhFin_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.hhFin_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.mmFin_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.mmFin_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.mmFin_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.amPmFin_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.amPmFin_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.amPmFin_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.NoAndamieros_DataCard2_1.DataCardValue28_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.NoAndamieros_DataCard2_1.DataCardValue28_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.NoAndamieros_DataCard2_1.DataCardValue28_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Usuario_DataCard2_1.DataCardValue5_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Usuario_DataCard2_1.DataCardValue5_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Usuario_DataCard2_1.DataCardValue5_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.IcoGuardarRegistroSolicitudesProgramadas_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.IcoGuardarRegistroSolicitudesProgramadas_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.IcoGuardarRegistroSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.IcoGuardarRegistroSolicitudesProgramadas_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.IcoGuardarRegistroSolicitudesProgramadas_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.IcoGuardarRegistroSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.icoAtrasRegistroSolicitudesProgramadas_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.icoAtrasRegistroSolicitudesProgramadas_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.icoAtrasRegistroSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.icoAtrasRegistroSolicitudesProgramadas_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.icoAtrasRegistroSolicitudesProgramadas_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.icoAtrasRegistroSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblGuardarRegistroSolicitudesProgramadas_1.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblGuardarRegistroSolicitudesProgramadas_1.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.lblGuardarRegistroSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblGuardarRegistroSolicitudesProgramadas_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblGuardarRegistroSolicitudesProgramadas_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.lblGuardarRegistroSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas_1.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas_1.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Registro Solicitudes Programadas'.frmRegistroSolicitudesProgramadas.FechaActividad_DataCard2.DataCardValue20.AccessibleLabel"
                 }
               ],
@@ -9259,6 +7639,246 @@
                 "member": "TabIndex",
                 "module": "Registro Solicitudes Programadas",
                 "type": "'Registro Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoGenerarPdfResumenActividadesEjecutadas.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoGenerarPdfResumenActividadesEjecutadas.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Resumen Actividades Ejecutadas",
+                "type": "'Resumen Actividades Ejecutadas'.IcoGenerarPdfResumenActividadesEjecutadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoGenerarPdfResumenActividadesEjecutadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoGenerarPdfResumenActividadesEjecutadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Resumen Actividades Ejecutadas",
+                "type": "'Resumen Actividades Ejecutadas'.IcoGenerarPdfResumenActividadesEjecutadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoAtrasResumenActividadesEjecutadas.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoAtrasResumenActividadesEjecutadas.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Resumen Actividades Ejecutadas",
+                "type": "'Resumen Actividades Ejecutadas'.IcoAtrasResumenActividadesEjecutadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoAtrasResumenActividadesEjecutadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.IcoAtrasResumenActividadesEjecutadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Resumen Actividades Ejecutadas",
+                "type": "'Resumen Actividades Ejecutadas'.IcoAtrasResumenActividadesEjecutadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblGenerarPdfResumenActividadesEjecutadas.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblGenerarPdfResumenActividadesEjecutadas.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Resumen Actividades Ejecutadas",
+                "type": "'Resumen Actividades Ejecutadas'.lblGenerarPdfResumenActividadesEjecutadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblGenerarPdfResumenActividadesEjecutadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblGenerarPdfResumenActividadesEjecutadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Resumen Actividades Ejecutadas",
+                "type": "'Resumen Actividades Ejecutadas'.lblGenerarPdfResumenActividadesEjecutadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblAtrasResumenActividadesEjecutadas.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblAtrasResumenActividadesEjecutadas.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Resumen Actividades Ejecutadas",
+                "type": "'Resumen Actividades Ejecutadas'.lblAtrasResumenActividadesEjecutadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblAtrasResumenActividadesEjecutadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.lblAtrasResumenActividadesEjecutadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Resumen Actividades Ejecutadas",
+                "type": "'Resumen Actividades Ejecutadas'.lblAtrasResumenActividadesEjecutadas"
               }
             }
           ],
@@ -10519,6 +9139,366 @@
                 "member": "TabIndex",
                 "module": "Edición Actividades Ejecutadas",
                 "type": "'Edición Actividades Ejecutadas'.lblAtrasRegistroActividadesEjecutadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoEnviarPdfSolicitudesProgramadas.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoEnviarPdfSolicitudesProgramadas.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Pdf Solicitudes Programadas",
+                "type": "'Pdf Solicitudes Programadas'.IcoEnviarPdfSolicitudesProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoEnviarPdfSolicitudesProgramadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoEnviarPdfSolicitudesProgramadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Pdf Solicitudes Programadas",
+                "type": "'Pdf Solicitudes Programadas'.IcoEnviarPdfSolicitudesProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoAtrasPdfSolicitudesProgramadas.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoAtrasPdfSolicitudesProgramadas.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Pdf Solicitudes Programadas",
+                "type": "'Pdf Solicitudes Programadas'.IcoAtrasPdfSolicitudesProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoAtrasPdfSolicitudesProgramadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.IcoAtrasPdfSolicitudesProgramadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Pdf Solicitudes Programadas",
+                "type": "'Pdf Solicitudes Programadas'.IcoAtrasPdfSolicitudesProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.icoInicioPdfSolicitudesProgramadas.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.icoInicioPdfSolicitudesProgramadas.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Pdf Solicitudes Programadas",
+                "type": "'Pdf Solicitudes Programadas'.icoInicioPdfSolicitudesProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.icoInicioPdfSolicitudesProgramadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.icoInicioPdfSolicitudesProgramadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Pdf Solicitudes Programadas",
+                "type": "'Pdf Solicitudes Programadas'.icoInicioPdfSolicitudesProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblEnviarPdfSolicitudesProgramadas.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblEnviarPdfSolicitudesProgramadas.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Pdf Solicitudes Programadas",
+                "type": "'Pdf Solicitudes Programadas'.lblEnviarPdfSolicitudesProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblEnviarPdfSolicitudesProgramadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblEnviarPdfSolicitudesProgramadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Pdf Solicitudes Programadas",
+                "type": "'Pdf Solicitudes Programadas'.lblEnviarPdfSolicitudesProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblAtrasPdfSolicitudesProgramadas.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblAtrasPdfSolicitudesProgramadas.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Pdf Solicitudes Programadas",
+                "type": "'Pdf Solicitudes Programadas'.lblAtrasPdfSolicitudesProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblAtrasPdfSolicitudesProgramadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblAtrasPdfSolicitudesProgramadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Pdf Solicitudes Programadas",
+                "type": "'Pdf Solicitudes Programadas'.lblAtrasPdfSolicitudesProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblInicioPdfSolicitudesProgramadas.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblInicioPdfSolicitudesProgramadas.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Pdf Solicitudes Programadas",
+                "type": "'Pdf Solicitudes Programadas'.lblInicioPdfSolicitudesProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblInicioPdfSolicitudesProgramadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Pdf Solicitudes Programadas'.lblInicioPdfSolicitudesProgramadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Pdf Solicitudes Programadas",
+                "type": "'Pdf Solicitudes Programadas'.lblInicioPdfSolicitudesProgramadas"
               }
             }
           ],
@@ -11916,6 +10896,366 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Inicio.imgProgramadas.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.imgProgramadas.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Inicio",
+                "type": "Inicio.imgProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio.imgProgramadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.imgProgramadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Inicio",
+                "type": "Inicio.imgProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio.lblProgramadas.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.lblProgramadas.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Inicio",
+                "type": "Inicio.lblProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio.lblProgramadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.lblProgramadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Inicio",
+                "type": "Inicio.lblProgramadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio.imgEjecutadas.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.imgEjecutadas.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Inicio",
+                "type": "Inicio.imgEjecutadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio.imgEjecutadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.imgEjecutadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Inicio",
+                "type": "Inicio.imgEjecutadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio.lblEjecutadas.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.lblEjecutadas.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Inicio",
+                "type": "Inicio.lblEjecutadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio.lblEjecutadas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.lblEjecutadas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Inicio",
+                "type": "Inicio.lblEjecutadas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio.icoInicioSolicitudesProgramadas_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.icoInicioSolicitudesProgramadas_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Inicio",
+                "type": "Inicio.icoInicioSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio.icoInicioSolicitudesProgramadas_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.icoInicioSolicitudesProgramadas_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Inicio",
+                "type": "Inicio.icoInicioSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio.lblInicioSolicitudesProgramadas_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.lblInicioSolicitudesProgramadas_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Inicio",
+                "type": "Inicio.lblInicioSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio.lblInicioSolicitudesProgramadas_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.lblInicioSolicitudesProgramadas_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Inicio",
+                "type": "Inicio.lblInicioSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Listado Solicitudes Programadas'.lblBuscarSolicitudesProgramadas.FocusedBorderThickness"
                 }
               ],
@@ -13116,6 +12456,666 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.FechaActividad_DataCard2_1.DataCardValue20_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.FechaActividad_DataCard2_1.DataCardValue20_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.FechaActividad_DataCard2_1.DataCardValue20_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Administrador_DataCard2_1.DataCardValue21_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Administrador_DataCard2_1.DataCardValue21_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Administrador_DataCard2_1.DataCardValue21_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Contratista_DataCard2_1.DataCardValue22_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Contratista_DataCard2_1.DataCardValue22_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Contratista_DataCard2_1.DataCardValue22_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Tipo_DataCard2_1.DataCardValue25_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Tipo_DataCard2_1.DataCardValue25_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Tipo_DataCard2_1.DataCardValue25_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Lugar_DataCard2_1.DataCardValue23_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Lugar_DataCard2_1.DataCardValue23_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Lugar_DataCard2_1.DataCardValue23_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Actividad_DataCard2_1.DataCardValue24_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Actividad_DataCard2_1.DataCardValue24_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Actividad_DataCard2_1.DataCardValue24_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.hhInicio_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.hhInicio_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.hhInicio_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.mmInicio_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.mmInicio_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.mmInicio_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.amPmInicio_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.amPmInicio_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.amPmInicio_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.hhFin_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.hhFin_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.hhFin_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.mmFin_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.mmFin_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.mmFin_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.amPmFin_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.amPmFin_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.amPmFin_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.NoAndamieros_DataCard2_1.DataCardValue28_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.NoAndamieros_DataCard2_1.DataCardValue28_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.NoAndamieros_DataCard2_1.DataCardValue28_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Usuario_DataCard2_1.DataCardValue5_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Usuario_DataCard2_1.DataCardValue5_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Usuario_DataCard2_1.DataCardValue5_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.IcoGuardarRegistroSolicitudesProgramadas_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.IcoGuardarRegistroSolicitudesProgramadas_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.IcoGuardarRegistroSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.IcoGuardarRegistroSolicitudesProgramadas_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.IcoGuardarRegistroSolicitudesProgramadas_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.IcoGuardarRegistroSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.icoAtrasRegistroSolicitudesProgramadas_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.icoAtrasRegistroSolicitudesProgramadas_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.icoAtrasRegistroSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.icoAtrasRegistroSolicitudesProgramadas_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.icoAtrasRegistroSolicitudesProgramadas_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.icoAtrasRegistroSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblGuardarRegistroSolicitudesProgramadas_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblGuardarRegistroSolicitudesProgramadas_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.lblGuardarRegistroSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblGuardarRegistroSolicitudesProgramadas_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblGuardarRegistroSolicitudesProgramadas_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.lblGuardarRegistroSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.lblAtrasRegistroSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.fecha_actividad_DataCard2.DateValue1.AccessibleLabel"
                 }
               ],
@@ -13956,306 +13956,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Inicio.lblNombreUsuario.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Inicio.lblNombreUsuario.Text",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Inicio",
-                "type": "Inicio.lblNombreUsuario"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.'Contenedor Resumen Actividades Ejecutadas'.HtmlResumenActividadesEjecutadas.HtmlText"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.'Contenedor Resumen Actividades Ejecutadas'.HtmlResumenActividadesEjecutadas.HtmlText",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "HtmlText",
-                "module": "Resumen Actividades Ejecutadas",
-                "type": "'Resumen Actividades Ejecutadas'.'Contenedor Resumen Actividades Ejecutadas'.HtmlResumenActividadesEjecutadas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Item"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Item",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Item",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.hhInicio_2.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.hhInicio_2.Default",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.hhInicio_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.mmInicio_2.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.mmInicio_2.Default",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.mmInicio_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.amPmInicio_2.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.amPmInicio_2.Default",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.amPmInicio_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.hhFin_2.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.hhFin_2.Default",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.hhFin_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.mmFin_2.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.mmFin_2.Default",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.mmFin_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.amPmFin_2.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.amPmFin_2.Default",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.amPmFin_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Usuario_DataCard2_1.DataCardValue5_1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Usuario_DataCard2_1.DataCardValue5_1.Default",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Edición Solicitudes Programadas",
-                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Usuario_DataCard2_1.DataCardValue5_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Registro Solicitudes Programadas'.frmRegistroSolicitudesProgramadas.Item"
                 }
               ],
@@ -14299,6 +13999,36 @@
                 "member": "Default",
                 "module": "Registro Solicitudes Programadas",
                 "type": "'Registro Solicitudes Programadas'.frmRegistroSolicitudesProgramadas.Usuario_DataCard2.DataCardValue5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.'Contenedor Resumen Actividades Ejecutadas'.HtmlResumenActividadesEjecutadas.HtmlText"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.'Contenedor Resumen Actividades Ejecutadas'.HtmlResumenActividadesEjecutadas.HtmlText",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "HtmlText",
+                "module": "Resumen Actividades Ejecutadas",
+                "type": "'Resumen Actividades Ejecutadas'.'Contenedor Resumen Actividades Ejecutadas'.HtmlResumenActividadesEjecutadas"
               }
             }
           ],
@@ -14676,6 +14406,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Inicio.lblNombreUsuario.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio.lblNombreUsuario.Text",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Inicio",
+                "type": "Inicio.lblNombreUsuario"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Listado Solicitudes Programadas'.galListaSolicitudesProgramadas.Items"
                 }
               ],
@@ -14730,6 +14490,246 @@
           },
           "ruleId": "app-TextInputIsNotDelayOutput",
           "ruleIndex": 10
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Item"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Item",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Item",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.hhInicio_2.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.hhInicio_2.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.hhInicio_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.mmInicio_2.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.mmInicio_2.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.mmInicio_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.amPmInicio_2.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.amPmInicio_2.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraInicio_DataCard2_1.amPmInicio_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.hhFin_2.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.hhFin_2.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.hhFin_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.mmFin_2.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.mmFin_2.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.mmFin_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.amPmFin_2.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.amPmFin_2.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.HoraFin_DataCard2_1.amPmFin_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Usuario_DataCard2_1.DataCardValue5_1.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Usuario_DataCard2_1.DataCardValue5_1.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Edición Solicitudes Programadas",
+                "type": "'Edición Solicitudes Programadas'.frmRegistroSolicitudesProgramadas_1.Usuario_DataCard2_1.DataCardValue5_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 9
         },
         {
           "locations": [
