@@ -688,7 +688,7 @@
                 SearchItems: =Choices(Ejecucion_andamio.field_8,DataCardValue40.SearchText)
                 SelectionFill: =RGBA(92, 92, 92, 1)
                 SelectMultiple: =false
-                Size: =21
+                Size: =19
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
