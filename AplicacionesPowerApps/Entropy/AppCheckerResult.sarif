@@ -14706,6 +14706,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.usuario_DataCard1.DataCardValue52.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.usuario_DataCard1.DataCardValue52.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Registro Actividades Ejecutadas",
+                "type": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.usuario_DataCard1.DataCardValue52"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Resumen Actividades Ejecutadas'.'Contenedor Resumen Actividades Ejecutadas'.HtmlResumenActividadesEjecutadas.HtmlText"
                 }
               ],

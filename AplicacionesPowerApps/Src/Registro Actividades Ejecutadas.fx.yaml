@@ -486,6 +486,7 @@
                 ZIndex: =4
 
         tipo_andamio_DataCard1 As typedDataCard.comboBoxEditCard:
+            BorderColor: =RGBA(92, 92, 92, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_6"
             Default: =ThisItem.tipo_andamio
@@ -502,9 +503,13 @@
 
             DataCardKey39 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: |-
+                    ="Tipo de andamio:"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -513,16 +518,19 @@
 
             DataCardValue36 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                ChevronBackground: =RGBA(92, 92, 92, 1)
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
                 Height: =70
                 Items: =Choices([@Ejecucion_andamio].field_6)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
                 SearchItems: =Choices(Ejecucion_andamio.field_6,DataCardValue36.SearchText)
+                SelectionFill: =RGBA(92, 92, 92, 1)
                 SelectMultiple: =false
-                Size: =21
+                Size: =19
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -557,6 +565,7 @@
                 ZIndex: =4
 
         lugar_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(92, 92, 92, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_7"
             Default: =ThisItem.lugar
@@ -574,9 +583,13 @@
 
             DataCardKey42 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: |-
+                    ="Lugar:"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -588,6 +601,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
                 Height: =70
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -595,7 +609,7 @@
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
-                Size: =21
+                Size: =19
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -630,6 +644,7 @@
                 ZIndex: =4
 
         actividad_DataCard2 As typedDataCard.comboBoxEditCard:
+            BorderColor: =RGBA(92, 92, 92, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_8"
             Default: =ThisItem.actividad
@@ -646,9 +661,13 @@
 
             DataCardKey44 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: |-
+                    ="Actividad:"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -657,14 +676,17 @@
 
             DataCardValue40 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                ChevronBackground: =RGBA(92, 92, 92, 1)
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
                 Height: =70
                 Items: =Choices([@Ejecucion_andamio].field_8)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
                 SearchItems: =Choices(Ejecucion_andamio.field_8,DataCardValue40.SearchText)
+                SelectionFill: =RGBA(92, 92, 92, 1)
                 SelectMultiple: =false
                 Size: =21
                 Tooltip: =Parent.DisplayName
@@ -701,6 +723,7 @@
                 ZIndex: =4
 
         hora_inicio_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(92, 92, 92, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_9"
             Default: =ThisItem.hora_inicio
@@ -718,9 +741,13 @@
 
             DataCardKey45 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: |-
+                    ="Hora de inicio:"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -732,6 +759,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
                 Height: =70
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -739,7 +767,7 @@
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
-                Size: =21
+                Size: =19
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -1422,6 +1450,7 @@
                 ZIndex: =4
 
         usuario_DataCard1 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(92, 92, 92, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_19"
             Default: =ThisItem.usuario
@@ -1439,9 +1468,13 @@
 
             DataCardKey55 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: |-
+                    ="Usuario:"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -1450,9 +1483,10 @@
 
             DataCardValue52 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
+                Default: =LookUp(Usuario_andamios, usuario_usuario = txtUsuarioLogin.Text,nombre_usuario)
                 DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =DisplayMode.View
+                Font: =Font.Lato
                 Height: =70
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -1460,7 +1494,7 @@
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
-                Size: =21
+                Size: =19
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
