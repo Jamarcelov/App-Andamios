@@ -802,6 +802,7 @@
                 ZIndex: =4
 
         hora_fin_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(92, 92, 92, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_10"
             Default: =ThisItem.hora_fin
@@ -819,9 +820,13 @@
 
             DataCardKey46 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
-                Text: =Parent.DisplayName
+                Text: |-
+                    ="Hora de finalización:"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -833,6 +838,7 @@
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.Lato
                 Height: =70
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
@@ -840,7 +846,7 @@
                 RadiusBottomRight: =0
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
-                Size: =21
+                Size: =19
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
