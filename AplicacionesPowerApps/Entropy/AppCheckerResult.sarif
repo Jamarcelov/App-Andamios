@@ -11986,19 +11986,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_inicio_DataCard2.DataCardValue42.AccessibleLabel"
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_inicio_DataCard2.mmInicio_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_inicio_DataCard2.DataCardValue42.AccessibleLabel",
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_inicio_DataCard2.mmInicio_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Registro Actividades Ejecutadas",
-                "type": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_inicio_DataCard2.DataCardValue42"
+                "type": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_inicio_DataCard2.mmInicio_1"
               }
             }
           ],
@@ -12016,19 +12016,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_fin_DataCard2.DataCardValue43.AccessibleLabel"
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_inicio_DataCard2.hhInicio_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_fin_DataCard2.DataCardValue43.AccessibleLabel",
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_inicio_DataCard2.hhInicio_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Registro Actividades Ejecutadas",
-                "type": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_fin_DataCard2.DataCardValue43"
+                "type": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_inicio_DataCard2.hhInicio_1"
               }
             }
           ],
@@ -13600,6 +13600,126 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_inicio_DataCard2.amPmInicio_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_inicio_DataCard2.amPmInicio_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Registro Actividades Ejecutadas",
+                "type": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_inicio_DataCard2.amPmInicio_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_fin_DataCard2.hhFin_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_fin_DataCard2.hhFin_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Registro Actividades Ejecutadas",
+                "type": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_fin_DataCard2.hhFin_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_fin_DataCard2.mmFin_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_fin_DataCard2.mmFin_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Registro Actividades Ejecutadas",
+                "type": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_fin_DataCard2.mmFin_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_fin_DataCard2.amPmFin_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_fin_DataCard2.amPmFin_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Registro Actividades Ejecutadas",
+                "type": "'Registro Actividades Ejecutadas'.frmRegistroActividadesEjecutadas.hora_fin_DataCard2.amPmFin_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
         },
         {
           "locations": [
