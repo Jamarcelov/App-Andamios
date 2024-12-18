@@ -159,7 +159,7 @@
         fecha_actividad_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_1"
-            Default: =ThisItem.fecha_actividad
+            Default: =Text(ThisItem.fecha_actividad, "dd mmmm yyyy")
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@Ejecucion_andamio],DataSourceInfo.DisplayName,field_1)
             Fill: =RGBA(0, 0, 0, 0)
