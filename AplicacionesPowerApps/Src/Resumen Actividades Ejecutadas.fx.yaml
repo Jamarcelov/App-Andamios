@@ -116,7 +116,7 @@
                             </tr>
                         </table>
                         <hr style='border-color: #FFE333;'>
-                        <p style='font-size: 12px'><b>Semana:</b> "& ISOWeekNum(galListaActividadesEjecutadas.Selected.FechaActividad) &"</p>
+                        <p style='font-size: 12px'><b>Semana:</b> "& ISOWeekNum(galListaActividadesEjecutadas.Selected.fecha_actividad) &"</p>
                         <p style='font-size: 12px'><b>Desde:</b> "& Text(dtBuscarFechaDesdeActividadesEjecutadas.SelectedDate, "dd/mm/yyyy") &"</p>
                         <p style='font-size: 12px'><b>Hasta:</b> "& Text(dtBuscarFechaHastaActividadesEjecutadas.SelectedDate, "dd/mm/yyyy") &"</p>
                         <br>
@@ -140,15 +140,15 @@
                                     "&
                                     Concat(galListaActividadesEjecutadas.AllItems, "
                                     <tr style='border: 1px solid black; border-collapse: collapse; height:23px;'>
-                                        <td style='border: 1px solid black; border-collapse: collapse; width:60px'align='center'>"& Text(FechaActividad, "dd/mm/yyyy") &"</td>
-                                        <td style='border: 1px solid black; border-collapse: collapse; width:105px' align='center'>"& Concatenate(HoraInicio," - ", HoraFin)&"</td>
-                                        <td style='border: 1px solid black; border-collapse: collapse; width:60px' align='center'>"& Actividad.Value &"</td>
-                                        <td style='border: 1px solid black; border-collapse: collapse;' align='center'>"& Administrador &"</td>
-                                        <td style='border: 1px solid black; border-collapse: collapse;' align='center'>"& Lugar &"</td>
-                                        <td style='border: 1px solid black; border-collapse: collapse;' align='center'>"& Programacion.Value &"</td>
-                                        <td style='border: 1px solid black; border-collapse: collapse;'align='center'>"& Tipo.Value &"</td>
-                                        <td style='border: 1px solid black; border-collapse: collapse;'align='center'>"& Dimensiones &"</td>
-                                        <td style='border: 1px solid black; border-collapse: collapse;'align='center'>"& Adicional &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse; width:60px'align='center'>"& Text(fecha_actividad, "dd/mm/yyyy") &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse; width:105px' align='center'>"& Concatenate(hora_inicio," - ", hora_fin)&"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse; width:60px' align='center'>"& actividad.Value &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse;' align='center'>"& administrador &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse;' align='center'>"& lugar &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse;' align='center'>"& programacion.Value &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse;'align='center'>"& critico_no_critico.Value &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse;'align='center'>"& largo &" m "& ancho &" m "& alto &" m " &"</td>
+                                        <td style='border: 1px solid black; border-collapse: collapse;'align='center'>"& ad_largo &" m "& ad_ancho &" m "& ad_alto &" m " &"</td>
                                     </tr>")
                                     &"
                                 </tbody>   
