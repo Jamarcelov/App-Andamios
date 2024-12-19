@@ -13,61 +13,22 @@
     "dataSources": [],
     "dependencies": {},
     "dependents": [
-      "654a13b7-6c19-49e3-934f-97803bd5dd35",
-      "82b21c6a-3fc1-4c2a-aeda-1f34bccda92d"
+      "2f9db378-8656-49fe-bb94-8bd3781f80a7",
+      "8fefb626-2105-49ff-a347-0fafab663a26"
     ],
     "id": "23634825-2d71-475e-accd-4d0feb4f31be"
   },
-  "654a13b7-6c19-49e3-934f-97803bd5dd35": {
-    "appActions": [
-      "Run"
-    ],
+  "2f9db378-8656-49fe-bb94-8bd3781f80a7": {
     "connectionRef": {
-      "apiTier": "Standard",
       "displayName": "Flujos lógicos",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3784/logicflows/icon.png",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1719/1.0.1719.3955/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
         "23634825-2d71-475e-accd-4d0feb4f31be": {
           "value": "shared_office365"
         },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "7b989c06-cd31-4348-b508-8654015e4e27"
-        }
-      },
-      "parameterHintsV2": {
-        "shared_office365": {
-          "value": "23634825-2d71-475e-accd-4d0feb4f31be"
-        },
-        "workflowEntityId": {},
-        "workflowName": {
-          "value": "7b989c06-cd31-4348-b508-8654015e4e27"
-        }
-      }
-    },
-    "datasets": {},
-    "dataSources": [
-      "EnviarPdfCorreoProgramadas"
-    ],
-    "dependencies": {
-      "shared_office365": "23634825-2d71-475e-accd-4d0feb4f31be"
-    },
-    "dependents": [],
-    "id": "654a13b7-6c19-49e3-934f-97803bd5dd35"
-  },
-  "82b21c6a-3fc1-4c2a-aeda-1f34bccda92d": {
-    "appActions": [
-      "Run"
-    ],
-    "connectionRef": {
-      "apiTier": "Standard",
-      "displayName": "Flujos lógicos",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3784/logicflows/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
-      "parameterHints": {
-        "23634825-2d71-475e-accd-4d0feb4f31be": {
-          "value": "shared_office365"
+        "workflowDisplayName": {
+          "value": "EnviarPdfCorreoEjecutadas"
         },
         "workflowEntityId": {},
         "workflowName": {
@@ -77,6 +38,9 @@
       "parameterHintsV2": {
         "shared_office365": {
           "value": "23634825-2d71-475e-accd-4d0feb4f31be"
+        },
+        "workflowDisplayName": {
+          "value": "EnviarPdfCorreoEjecutadas"
         },
         "workflowEntityId": {},
         "workflowName": {
@@ -92,7 +56,41 @@
       "shared_office365": "23634825-2d71-475e-accd-4d0feb4f31be"
     },
     "dependents": [],
-    "id": "82b21c6a-3fc1-4c2a-aeda-1f34bccda92d"
+    "id": "2f9db378-8656-49fe-bb94-8bd3781f80a7"
+  },
+  "8fefb626-2105-49ff-a347-0fafab663a26": {
+    "connectionRef": {
+      "displayName": "Flujos lógicos",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1719/1.0.1719.3955/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowDisplayName": {
+          "value": "EnviarPdfCorreoProgramadas"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "7b989c06-cd31-4348-b508-8654015e4e27"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowDisplayName": {
+          "value": "EnviarPdfCorreoProgramadas"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "7b989c06-cd31-4348-b508-8654015e4e27"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "EnviarPdfCorreoProgramadas"
+    ],
+    "dependencies": {
+      "shared_office365": "23634825-2d71-475e-accd-4d0feb4f31be"
+    },
+    "dependents": [],
+    "id": "8fefb626-2105-49ff-a347-0fafab663a26"
   },
   "95c05978-2530-40b5-a001-caa5e66bd753": {
     "appActions": [
